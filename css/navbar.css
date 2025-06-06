@@ -1,0 +1,43 @@
+*{
+    font-family: 'Josefin Sans', sans-serif;
+}
+.top_div{
+    width: 100%;
+    height: inherit;
+    background-image: url('../imgs/bgimg.png');
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+.nav_logo{
+    width: 180px;
+    height: 65px;
+}
+.nav-link, .navbar-toggler{
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight:900;
+}
+#hamburger{    
+    outline: none;
+    border:none;
+}
+ #btnID1,#btnID2,#btnID3{
+    padding: 10px 20px;
+    text-align: center;
+    font-size: 14px;
+    color: white;
+    border: none;
+    background-color:rgba(0, 89, 255, 0.645);
+    border-radius: 10px;
+    cursor: pointer;
+    outline: none;
+    margin-top: 10px;
+    
+}
+
+.navbar-nav > li{
+    padding-left:20px;
+    padding-right:20px;
+    line-height: 40px;
+}
